@@ -1,28 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17150" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Y6W-OH-hqX">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17122"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Login View Controller-->
         <scene sceneID="s0d-6b-0kx">
             <objects>
-                <viewController id="Y6W-OH-hqX" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="loginStoryboard" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Y6W-OH-hqX" customClass="LoginViewController" customModule="Soda_iOS" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xwf-cu-UcU">
+                                <rect key="frame" x="16" y="690" width="358" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="rq4-xn-eUD"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <backgroundConfiguration key="background" image="kakao_login_large_wide"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="tapbtnKakao:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="UYk-C7-uP8"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="heart" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="OMf-dj-SOi">
+                                <rect key="frame" x="75" y="274" width="240" height="125"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="UMj-xB-Lce"/>
+                                    <constraint firstAttribute="height" constant="128" id="uHl-k0-doK"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="xwf-cu-UcU" secondAttribute="bottom" constant="70" id="g7K-Ap-uwf"/>
+                            <constraint firstItem="OMf-dj-SOi" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="228" id="gVz-iw-a2f"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="xwf-cu-UcU" secondAttribute="trailing" constant="16" id="nfK-wP-0WE"/>
+                            <constraint firstItem="OMf-dj-SOi" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="75" id="q9M-Kv-2vU"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="OMf-dj-SOi" secondAttribute="trailing" constant="75" id="qxD-z4-ph9"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="OMf-dj-SOi" secondAttribute="bottom" constant="410" id="vf3-p5-qVo"/>
+                            <constraint firstItem="xwf-cu-UcU" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="16" id="zZG-eD-hRh"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="44.927536231884062" y="54.910714285714285"/>
         </scene>
     </scenes>
     <resources>
+        <image name="heart" catalog="system" width="128" height="109"/>
+        <image name="kakao_login_large_wide" width="600" height="90"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

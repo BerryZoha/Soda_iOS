@@ -22,6 +22,12 @@
 		DA48481727A53D1A004A73AC /* LoginStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA48481627A53D1A004A73AC /* LoginStoryboard.storyboard */; };
 		DA48481927A53D2B004A73AC /* MyStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA48481827A53D2B004A73AC /* MyStoryboard.storyboard */; };
 		DA48481B27A53D33004A73AC /* PostStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA48481A27A53D33004A73AC /* PostStoryboard.storyboard */; };
+		DA48481F27A55404004A73AC /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA48481E27A55404004A73AC /* LoginViewController.swift */; };
+		DA48482327A55CDB004A73AC /* HomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA48482127A55CDB004A73AC /* HomeCollectionViewCell.swift */; };
+		DA48482427A55CDB004A73AC /* HomeCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA48482227A55CDB004A73AC /* HomeCollectionViewCell.xib */; };
+		DA48482627A5610A004A73AC /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA48482527A5610A004A73AC /* HomeViewController.swift */; };
+		DA57B2C727A5A7FF0001EE0A /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA57B2C627A5A7FF0001EE0A /* PostViewController.swift */; };
+		DACCDF4627A5E0C600FE2A07 /* PlaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACCDF4527A5E0C600FE2A07 /* PlaceViewController.swift */; };
 		DAF2D1B827A537A100E33197 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF2D1B727A537A100E33197 /* AppDelegate.swift */; };
 		DAF2D1BA27A537A100E33197 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF2D1B927A537A100E33197 /* SceneDelegate.swift */; };
 		DAF2D1BF27A537A100E33197 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAF2D1BD27A537A100E33197 /* Main.storyboard */; };
@@ -86,6 +92,12 @@
 		DA48481627A53D1A004A73AC /* LoginStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LoginStoryboard.storyboard; sourceTree = "<group>"; };
 		DA48481827A53D2B004A73AC /* MyStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MyStoryboard.storyboard; sourceTree = "<group>"; };
 		DA48481A27A53D33004A73AC /* PostStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PostStoryboard.storyboard; sourceTree = "<group>"; };
+		DA48481E27A55404004A73AC /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		DA48482127A55CDB004A73AC /* HomeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewCell.swift; sourceTree = "<group>"; };
+		DA48482227A55CDB004A73AC /* HomeCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeCollectionViewCell.xib; sourceTree = "<group>"; };
+		DA48482527A5610A004A73AC /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		DA57B2C627A5A7FF0001EE0A /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		DACCDF4527A5E0C600FE2A07 /* PlaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceViewController.swift; sourceTree = "<group>"; };
 		DAF2D1B427A537A100E33197 /* Soda_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Soda_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAF2D1B727A537A100E33197 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DAF2D1B927A537A100E33197 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -113,6 +125,8 @@
 		DAF2D29B27A53AAC00E33197 /* UINavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UINavigationBar.swift; sourceTree = "<group>"; };
 		DAF2D29C27A53AAC00E33197 /* UIFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIFont.swift; sourceTree = "<group>"; };
 		DAF2D29D27A53AAC00E33197 /* Device.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
+		EBD19C694C5C09031236A04C /* Pods-Soda_iOS-Soda_iOSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Soda_iOS-Soda_iOSUITests.release.xcconfig"; path = "Target Support Files/Pods-Soda_iOS-Soda_iOSUITests/Pods-Soda_iOS-Soda_iOSUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F66FC583736F2ED13DCB251C /* Pods_Soda_iOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Soda_iOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -316,6 +330,8 @@
 			isa = PBXGroup;
 			children = (
 				DA48481A27A53D33004A73AC /* PostStoryboard.storyboard */,
+				DA57B2C627A5A7FF0001EE0A /* PostViewController.swift */,
+				DACCDF4527A5E0C600FE2A07 /* PlaceViewController.swift */,
 			);
 			path = Post;
 			sourceTree = "<group>";
@@ -332,6 +348,7 @@
 			isa = PBXGroup;
 			children = (
 				DA48481627A53D1A004A73AC /* LoginStoryboard.storyboard */,
+				DA48481E27A55404004A73AC /* LoginViewController.swift */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -339,7 +356,9 @@
 		DAF2D30027A53BC700E33197 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				DA48482027A55CC4004A73AC /* Cell */,
 				DA48481427A53D13004A73AC /* HomeStoryboard.storyboard */,
+				DA48482527A5610A004A73AC /* HomeViewController.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -481,6 +500,7 @@
 				DAF2D1C427A537A200E33197 /* LaunchScreen.storyboard in Resources */,
 				DA48481527A53D13004A73AC /* HomeStoryboard.storyboard in Resources */,
 				DAF2D1C127A537A200E33197 /* Assets.xcassets in Resources */,
+				DA48482427A55CDB004A73AC /* HomeCollectionViewCell.xib in Resources */,
 				DAF2D1BF27A537A100E33197 /* Main.storyboard in Resources */,
 				DA48481327A53D08004A73AC /* FeedStoryboard.storyboard in Resources */,
 				DAF2D23527A539C500E33197 /* NotoSansCJKkr-Medium.otf in Resources */,
@@ -612,14 +632,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA57B2C727A5A7FF0001EE0A /* PostViewController.swift in Sources */,
 				DAF2D1B827A537A100E33197 /* AppDelegate.swift in Sources */,
 				DAF2D23327A539C500E33197 /* BaseViewController.swift in Sources */,
 				DAF2D29F27A53AAC00E33197 /* Date.swift in Sources */,
+				DA48482627A5610A004A73AC /* HomeViewController.swift in Sources */,
+				DACCDF4627A5E0C600FE2A07 /* PlaceViewController.swift in Sources */,
+				DA48481F27A55404004A73AC /* LoginViewController.swift in Sources */,
 				DAF2D2A427A53AAC00E33197 /* UINavigationBar.swift in Sources */,
 				C560DC5927A5CE050064F4E6 /* AlbumCollectionViewCell.swift in Sources */,
 				DAF2D2A327A53AAC00E33197 /* UIViewController.swift in Sources */,
 				C5E950E527A57067006B45AB /* PhotoCollectionViewCell.swift in Sources */,
 				DAF2D2A627A53AAC00E33197 /* Device.swift in Sources */,
+				DA48482327A55CDB004A73AC /* HomeCollectionViewCell.swift in Sources */,
 				DAF2D2A127A53AAC00E33197 /* String.swift in Sources */,
 				C5ADE6A527A54E85006E8938 /* FeedPageViewController.swift in Sources */,
 				C5ADE6A327A548FA006E8938 /* FeedViewController.swift in Sources */,
