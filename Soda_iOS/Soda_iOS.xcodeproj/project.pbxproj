@@ -19,6 +19,8 @@
 		DA48482327A55CDB004A73AC /* HomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA48482127A55CDB004A73AC /* HomeCollectionViewCell.swift */; };
 		DA48482427A55CDB004A73AC /* HomeCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA48482227A55CDB004A73AC /* HomeCollectionViewCell.xib */; };
 		DA48482627A5610A004A73AC /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA48482527A5610A004A73AC /* HomeViewController.swift */; };
+		DA57B2C727A5A7FF0001EE0A /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA57B2C627A5A7FF0001EE0A /* PostViewController.swift */; };
+		DACCDF4627A5E0C600FE2A07 /* PlaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACCDF4527A5E0C600FE2A07 /* PlaceViewController.swift */; };
 		DAF2D1B827A537A100E33197 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF2D1B727A537A100E33197 /* AppDelegate.swift */; };
 		DAF2D1BA27A537A100E33197 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF2D1B927A537A100E33197 /* SceneDelegate.swift */; };
 		DAF2D1BF27A537A100E33197 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAF2D1BD27A537A100E33197 /* Main.storyboard */; };
@@ -78,6 +80,8 @@
 		DA48482127A55CDB004A73AC /* HomeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewCell.swift; sourceTree = "<group>"; };
 		DA48482227A55CDB004A73AC /* HomeCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeCollectionViewCell.xib; sourceTree = "<group>"; };
 		DA48482527A5610A004A73AC /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		DA57B2C627A5A7FF0001EE0A /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		DACCDF4527A5E0C600FE2A07 /* PlaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceViewController.swift; sourceTree = "<group>"; };
 		DAF2D1B427A537A100E33197 /* Soda_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Soda_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAF2D1B727A537A100E33197 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DAF2D1B927A537A100E33197 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -301,6 +305,8 @@
 			isa = PBXGroup;
 			children = (
 				DA48481A27A53D33004A73AC /* PostStoryboard.storyboard */,
+				DA57B2C627A5A7FF0001EE0A /* PostViewController.swift */,
+				DACCDF4527A5E0C600FE2A07 /* PlaceViewController.swift */,
 			);
 			path = Post;
 			sourceTree = "<group>";
@@ -588,10 +594,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA57B2C727A5A7FF0001EE0A /* PostViewController.swift in Sources */,
 				DAF2D1B827A537A100E33197 /* AppDelegate.swift in Sources */,
 				DAF2D23327A539C500E33197 /* BaseViewController.swift in Sources */,
 				DAF2D29F27A53AAC00E33197 /* Date.swift in Sources */,
 				DA48482627A5610A004A73AC /* HomeViewController.swift in Sources */,
+				DACCDF4627A5E0C600FE2A07 /* PlaceViewController.swift in Sources */,
 				DA48481F27A55404004A73AC /* LoginViewController.swift in Sources */,
 				DAF2D2A427A53AAC00E33197 /* UINavigationBar.swift in Sources */,
 				DAF2D2A327A53AAC00E33197 /* UIViewController.swift in Sources */,
@@ -789,7 +797,7 @@
 				INFOPLIST_FILE = Soda_iOS/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = HomeStoryboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = PostStoryboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -818,7 +826,7 @@
 				INFOPLIST_FILE = Soda_iOS/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = HomeStoryboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = PostStoryboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
