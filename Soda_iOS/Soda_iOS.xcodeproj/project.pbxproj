@@ -7,9 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		23E23E918C2A8E69DDFD87B4 /* Pods_Soda_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 730C16835BAAB0C401DD693D /* Pods_Soda_iOS.framework */; };
-		25C8A7313F6A4E278BA79721 /* Pods_Soda_iOS_Soda_iOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5490ED786A8C7ED10FBDB7EC /* Pods_Soda_iOS_Soda_iOSUITests.framework */; };
-		7F05E5E27315A2CA7781B7C8 /* Pods_Soda_iOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F66FC583736F2ED13DCB251C /* Pods_Soda_iOSTests.framework */; };
+		062019C842D9E6190B659282 /* Pods_Soda_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6939F92CAD4DC85E5916E511 /* Pods_Soda_iOS.framework */; };
+		68CCAD89410CD770310EE709 /* Pods_Soda_iOS_Soda_iOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27CAD0682DFD1226E640DD01 /* Pods_Soda_iOS_Soda_iOSUITests.framework */; };
+		C17062ED8AD88F6008AF44FD /* Pods_Soda_iOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A627F49F883C523BD39B6917 /* Pods_Soda_iOSTests.framework */; };
+		C560DC5927A5CE050064F4E6 /* AlbumCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C560DC5827A5CE050064F4E6 /* AlbumCollectionViewCell.swift */; };
+		C560DC5B27A5D0B90064F4E6 /* model.swift in Sources */ = {isa = PBXBuildFile; fileRef = C560DC5A27A5D0B90064F4E6 /* model.swift */; };
+		C576681B27A5C678005CE66C /* AlbumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C576681A27A5C678005CE66C /* AlbumViewController.swift */; };
+		C5ADE6A327A548FA006E8938 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5ADE6A227A548FA006E8938 /* FeedViewController.swift */; };
+		C5ADE6A527A54E85006E8938 /* FeedPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5ADE6A427A54E85006E8938 /* FeedPageViewController.swift */; };
+		C5E950E227A563A8006B45AB /* pageDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E950E127A563A8006B45AB /* pageDetailViewController.swift */; };
+		C5E950E527A57067006B45AB /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E950E427A57067006B45AB /* PhotoCollectionViewCell.swift */; };
 		DA48481327A53D08004A73AC /* FeedStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA48481227A53D08004A73AC /* FeedStoryboard.storyboard */; };
 		DA48481527A53D13004A73AC /* HomeStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA48481427A53D13004A73AC /* HomeStoryboard.storyboard */; };
 		DA48481727A53D1A004A73AC /* LoginStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA48481627A53D1A004A73AC /* LoginStoryboard.storyboard */; };
@@ -64,13 +71,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		240398BA7F446396F0745C90 /* Pods-Soda_iOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Soda_iOSTests.debug.xcconfig"; path = "Target Support Files/Pods-Soda_iOSTests/Pods-Soda_iOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		3209A13C51F6C2787EEBD284 /* Pods-Soda_iOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Soda_iOSTests.release.xcconfig"; path = "Target Support Files/Pods-Soda_iOSTests/Pods-Soda_iOSTests.release.xcconfig"; sourceTree = "<group>"; };
-		5490ED786A8C7ED10FBDB7EC /* Pods_Soda_iOS_Soda_iOSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Soda_iOS_Soda_iOSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6EEAD4A7B1FE83D0C160FFD8 /* Pods-Soda_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Soda_iOS.release.xcconfig"; path = "Target Support Files/Pods-Soda_iOS/Pods-Soda_iOS.release.xcconfig"; sourceTree = "<group>"; };
-		730C16835BAAB0C401DD693D /* Pods_Soda_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Soda_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AFBACDA700A3817C0EB7D727 /* Pods-Soda_iOS-Soda_iOSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Soda_iOS-Soda_iOSUITests.debug.xcconfig"; path = "Target Support Files/Pods-Soda_iOS-Soda_iOSUITests/Pods-Soda_iOS-Soda_iOSUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		D46C844EC542AAEEFF8073C0 /* Pods-Soda_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Soda_iOS.debug.xcconfig"; path = "Target Support Files/Pods-Soda_iOS/Pods-Soda_iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		27CAD0682DFD1226E640DD01 /* Pods_Soda_iOS_Soda_iOSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Soda_iOS_Soda_iOSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5294FEAA505804AC1B9B440A /* Pods-Soda_iOS-Soda_iOSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Soda_iOS-Soda_iOSUITests.debug.xcconfig"; path = "Target Support Files/Pods-Soda_iOS-Soda_iOSUITests/Pods-Soda_iOS-Soda_iOSUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		53583593F7387BAEB37A1F64 /* Pods-Soda_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Soda_iOS.release.xcconfig"; path = "Target Support Files/Pods-Soda_iOS/Pods-Soda_iOS.release.xcconfig"; sourceTree = "<group>"; };
+		54F1E806AE3D5AF5AC32F209 /* Pods-Soda_iOS-Soda_iOSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Soda_iOS-Soda_iOSUITests.release.xcconfig"; path = "Target Support Files/Pods-Soda_iOS-Soda_iOSUITests/Pods-Soda_iOS-Soda_iOSUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6302BF32D55A2563F032E5A4 /* Pods-Soda_iOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Soda_iOSTests.release.xcconfig"; path = "Target Support Files/Pods-Soda_iOSTests/Pods-Soda_iOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		6939F92CAD4DC85E5916E511 /* Pods_Soda_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Soda_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A627F49F883C523BD39B6917 /* Pods_Soda_iOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Soda_iOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C560DC5827A5CE050064F4E6 /* AlbumCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumCollectionViewCell.swift; sourceTree = "<group>"; };
+		C560DC5A27A5D0B90064F4E6 /* model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = model.swift; sourceTree = "<group>"; };
+		C576681A27A5C678005CE66C /* AlbumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumViewController.swift; sourceTree = "<group>"; };
+		C5ADE6A227A548FA006E8938 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		C5ADE6A427A54E85006E8938 /* FeedPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedPageViewController.swift; sourceTree = "<group>"; };
+		C5E950E127A563A8006B45AB /* pageDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pageDetailViewController.swift; sourceTree = "<group>"; };
+		C5E950E427A57067006B45AB /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
+		C78310CB7FFD71E2F143C361 /* Pods-Soda_iOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Soda_iOSTests.debug.xcconfig"; path = "Target Support Files/Pods-Soda_iOSTests/Pods-Soda_iOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D15E7409CC3134D970815AAC /* Pods-Soda_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Soda_iOS.debug.xcconfig"; path = "Target Support Files/Pods-Soda_iOS/Pods-Soda_iOS.debug.xcconfig"; sourceTree = "<group>"; };
 		DA48481227A53D08004A73AC /* FeedStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FeedStoryboard.storyboard; sourceTree = "<group>"; };
 		DA48481427A53D13004A73AC /* HomeStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HomeStoryboard.storyboard; sourceTree = "<group>"; };
 		DA48481627A53D1A004A73AC /* LoginStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LoginStoryboard.storyboard; sourceTree = "<group>"; };
@@ -118,7 +134,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				23E23E918C2A8E69DDFD87B4 /* Pods_Soda_iOS.framework in Frameworks */,
+				062019C842D9E6190B659282 /* Pods_Soda_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -126,7 +142,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7F05E5E27315A2CA7781B7C8 /* Pods_Soda_iOSTests.framework in Frameworks */,
+				C17062ED8AD88F6008AF44FD /* Pods_Soda_iOSTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,43 +150,52 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				25C8A7313F6A4E278BA79721 /* Pods_Soda_iOS_Soda_iOSUITests.framework in Frameworks */,
+				68CCAD89410CD770310EE709 /* Pods_Soda_iOS_Soda_iOSUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		624739A690A38ACE19959855 /* Pods */ = {
+		B5F5ADB4CBC8282967C6A7CB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				D46C844EC542AAEEFF8073C0 /* Pods-Soda_iOS.debug.xcconfig */,
-				6EEAD4A7B1FE83D0C160FFD8 /* Pods-Soda_iOS.release.xcconfig */,
-				AFBACDA700A3817C0EB7D727 /* Pods-Soda_iOS-Soda_iOSUITests.debug.xcconfig */,
-				EBD19C694C5C09031236A04C /* Pods-Soda_iOS-Soda_iOSUITests.release.xcconfig */,
-				240398BA7F446396F0745C90 /* Pods-Soda_iOSTests.debug.xcconfig */,
-				3209A13C51F6C2787EEBD284 /* Pods-Soda_iOSTests.release.xcconfig */,
+				D15E7409CC3134D970815AAC /* Pods-Soda_iOS.debug.xcconfig */,
+				53583593F7387BAEB37A1F64 /* Pods-Soda_iOS.release.xcconfig */,
+				5294FEAA505804AC1B9B440A /* Pods-Soda_iOS-Soda_iOSUITests.debug.xcconfig */,
+				54F1E806AE3D5AF5AC32F209 /* Pods-Soda_iOS-Soda_iOSUITests.release.xcconfig */,
+				C78310CB7FFD71E2F143C361 /* Pods-Soda_iOSTests.debug.xcconfig */,
+				6302BF32D55A2563F032E5A4 /* Pods-Soda_iOSTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		C5F92B27D888C9CC6F7EE03D /* Frameworks */ = {
+		C576681827A5C608005CE66C /* detail */ = {
 			isa = PBXGroup;
 			children = (
-				730C16835BAAB0C401DD693D /* Pods_Soda_iOS.framework */,
-				5490ED786A8C7ED10FBDB7EC /* Pods_Soda_iOS_Soda_iOSUITests.framework */,
-				F66FC583736F2ED13DCB251C /* Pods_Soda_iOSTests.framework */,
+				C5E950E327A5704E006B45AB /* Collection */,
+				C5ADE6A427A54E85006E8938 /* FeedPageViewController.swift */,
+				C5E950E127A563A8006B45AB /* pageDetailViewController.swift */,
+				C5ADE6A227A548FA006E8938 /* FeedViewController.swift */,
 			);
-			name = Frameworks;
+			path = detail;
 			sourceTree = "<group>";
 		};
-		DA48482027A55CC4004A73AC /* Cell */ = {
+		C576681927A5C61D005CE66C /* album */ = {
 			isa = PBXGroup;
 			children = (
-				DA48482127A55CDB004A73AC /* HomeCollectionViewCell.swift */,
-				DA48482227A55CDB004A73AC /* HomeCollectionViewCell.xib */,
+				C576681A27A5C678005CE66C /* AlbumViewController.swift */,
+				C560DC5827A5CE050064F4E6 /* AlbumCollectionViewCell.swift */,
 			);
-			path = Cell;
+			path = album;
+			sourceTree = "<group>";
+		};
+		C5E950E327A5704E006B45AB /* Collection */ = {
+			isa = PBXGroup;
+			children = (
+				C5E950E427A57067006B45AB /* PhotoCollectionViewCell.swift */,
+			);
+			path = Collection;
 			sourceTree = "<group>";
 		};
 		DAF2D1AB27A537A100E33197 = {
@@ -180,8 +205,8 @@
 				DAF2D1CD27A537A200E33197 /* Soda_iOSTests */,
 				DAF2D1D727A537A200E33197 /* Soda_iOSUITests */,
 				DAF2D1B527A537A100E33197 /* Products */,
-				624739A690A38ACE19959855 /* Pods */,
-				C5F92B27D888C9CC6F7EE03D /* Frameworks */,
+				B5F5ADB4CBC8282967C6A7CB /* Pods */,
+				EF2827EF8724FCB661384BCA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -342,8 +367,21 @@
 			isa = PBXGroup;
 			children = (
 				DA48481227A53D08004A73AC /* FeedStoryboard.storyboard */,
+				C560DC5A27A5D0B90064F4E6 /* model.swift */,
+				C576681827A5C608005CE66C /* detail */,
+				C576681927A5C61D005CE66C /* album */,
 			);
 			path = Feed;
+			sourceTree = "<group>";
+		};
+		EF2827EF8724FCB661384BCA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6939F92CAD4DC85E5916E511 /* Pods_Soda_iOS.framework */,
+				27CAD0682DFD1226E640DD01 /* Pods_Soda_iOS_Soda_iOSUITests.framework */,
+				A627F49F883C523BD39B6917 /* Pods_Soda_iOSTests.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -353,11 +391,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DAF2D1DE27A537A200E33197 /* Build configuration list for PBXNativeTarget "Soda_iOS" */;
 			buildPhases = (
-				3A1065A22B01E7ABF8ACDAB0 /* [CP] Check Pods Manifest.lock */,
+				F5968E83348E9147F63DC151 /* [CP] Check Pods Manifest.lock */,
 				DAF2D1B027A537A100E33197 /* Sources */,
 				DAF2D1B127A537A100E33197 /* Frameworks */,
 				DAF2D1B227A537A100E33197 /* Resources */,
-				B7307DC0CAC85A236965697E /* [CP] Embed Pods Frameworks */,
+				59C7FF16F1BD236801330101 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -372,7 +410,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DAF2D1E127A537A200E33197 /* Build configuration list for PBXNativeTarget "Soda_iOSTests" */;
 			buildPhases = (
-				C9550014CDAFF3F4E8DD06EA /* [CP] Check Pods Manifest.lock */,
+				B87BE25A71E623CD317041BF /* [CP] Check Pods Manifest.lock */,
 				DAF2D1C627A537A200E33197 /* Sources */,
 				DAF2D1C727A537A200E33197 /* Frameworks */,
 				DAF2D1C827A537A200E33197 /* Resources */,
@@ -391,11 +429,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DAF2D1E427A537A200E33197 /* Build configuration list for PBXNativeTarget "Soda_iOSUITests" */;
 			buildPhases = (
-				B6A7B56B6C9CFB16F139E5B0 /* [CP] Check Pods Manifest.lock */,
+				7271AFCA574C83EF17E13180 /* [CP] Check Pods Manifest.lock */,
 				DAF2D1D027A537A200E33197 /* Sources */,
 				DAF2D1D127A537A200E33197 /* Frameworks */,
 				DAF2D1D227A537A200E33197 /* Resources */,
-				384C8A98B79434EAD2D5B4BA /* [CP] Embed Pods Frameworks */,
+				CB59A49FA3DA03F7F48BABD6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -487,46 +525,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		384C8A98B79434EAD2D5B4BA /* [CP] Embed Pods Frameworks */ = {
+		59C7FF16F1BD236801330101 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Soda_iOS-Soda_iOSUITests/Pods-Soda_iOS-Soda_iOSUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Soda_iOS/Pods-Soda_iOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Soda_iOS-Soda_iOSUITests/Pods-Soda_iOS-Soda_iOSUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Soda_iOS/Pods-Soda_iOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Soda_iOS-Soda_iOSUITests/Pods-Soda_iOS-Soda_iOSUITests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Soda_iOS/Pods-Soda_iOS-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		3A1065A22B01E7ABF8ACDAB0 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Soda_iOS-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B6A7B56B6C9CFB16F139E5B0 /* [CP] Check Pods Manifest.lock */ = {
+		7271AFCA574C83EF17E13180 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -548,24 +564,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		B7307DC0CAC85A236965697E /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Soda_iOS/Pods-Soda_iOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Soda_iOS/Pods-Soda_iOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Soda_iOS/Pods-Soda_iOS-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C9550014CDAFF3F4E8DD06EA /* [CP] Check Pods Manifest.lock */ = {
+		B87BE25A71E623CD317041BF /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -587,6 +586,45 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		CB59A49FA3DA03F7F48BABD6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Soda_iOS-Soda_iOSUITests/Pods-Soda_iOS-Soda_iOSUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Soda_iOS-Soda_iOSUITests/Pods-Soda_iOS-Soda_iOSUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Soda_iOS-Soda_iOSUITests/Pods-Soda_iOS-Soda_iOSUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5968E83348E9147F63DC151 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Soda_iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -602,16 +640,23 @@
 				DACCDF4627A5E0C600FE2A07 /* PlaceViewController.swift in Sources */,
 				DA48481F27A55404004A73AC /* LoginViewController.swift in Sources */,
 				DAF2D2A427A53AAC00E33197 /* UINavigationBar.swift in Sources */,
+				C560DC5927A5CE050064F4E6 /* AlbumCollectionViewCell.swift in Sources */,
 				DAF2D2A327A53AAC00E33197 /* UIViewController.swift in Sources */,
+				C5E950E527A57067006B45AB /* PhotoCollectionViewCell.swift in Sources */,
 				DAF2D2A627A53AAC00E33197 /* Device.swift in Sources */,
 				DA48482327A55CDB004A73AC /* HomeCollectionViewCell.swift in Sources */,
 				DAF2D2A127A53AAC00E33197 /* String.swift in Sources */,
+				C5ADE6A527A54E85006E8938 /* FeedPageViewController.swift in Sources */,
+				C5ADE6A327A548FA006E8938 /* FeedViewController.swift in Sources */,
 				DAF2D23427A539C500E33197 /* Constant.swift in Sources */,
 				DAF2D2A227A53AAC00E33197 /* UIButton.swift in Sources */,
 				DAF2D1BA27A537A100E33197 /* SceneDelegate.swift in Sources */,
 				DAF2D2A527A53AAC00E33197 /* UIFont.swift in Sources */,
 				DAF2D2A027A53AAC00E33197 /* UIColor.swift in Sources */,
+				C5E950E227A563A8006B45AB /* pageDetailViewController.swift in Sources */,
 				DAF2D29E27A53AAC00E33197 /* IndicatorView.swift in Sources */,
+				C576681B27A5C678005CE66C /* AlbumViewController.swift in Sources */,
+				C560DC5B27A5D0B90064F4E6 /* model.swift in Sources */,
 				DAF2D23227A539C500E33197 /* KobisKey.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -786,7 +831,7 @@
 		};
 		DAF2D1DF27A537A200E33197 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D46C844EC542AAEEFF8073C0 /* Pods-Soda_iOS.debug.xcconfig */;
+			baseConfigurationReference = D15E7409CC3134D970815AAC /* Pods-Soda_iOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -797,7 +842,7 @@
 				INFOPLIST_FILE = Soda_iOS/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = PostStoryboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = FeedStoryboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -815,7 +860,7 @@
 		};
 		DAF2D1E027A537A200E33197 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6EEAD4A7B1FE83D0C160FFD8 /* Pods-Soda_iOS.release.xcconfig */;
+			baseConfigurationReference = 53583593F7387BAEB37A1F64 /* Pods-Soda_iOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -826,7 +871,7 @@
 				INFOPLIST_FILE = Soda_iOS/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = PostStoryboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = FeedStoryboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -844,7 +889,7 @@
 		};
 		DAF2D1E227A537A200E33197 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 240398BA7F446396F0745C90 /* Pods-Soda_iOSTests.debug.xcconfig */;
+			baseConfigurationReference = C78310CB7FFD71E2F143C361 /* Pods-Soda_iOSTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -865,7 +910,7 @@
 		};
 		DAF2D1E327A537A200E33197 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3209A13C51F6C2787EEBD284 /* Pods-Soda_iOSTests.release.xcconfig */;
+			baseConfigurationReference = 6302BF32D55A2563F032E5A4 /* Pods-Soda_iOSTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -886,7 +931,7 @@
 		};
 		DAF2D1E527A537A200E33197 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AFBACDA700A3817C0EB7D727 /* Pods-Soda_iOS-Soda_iOSUITests.debug.xcconfig */;
+			baseConfigurationReference = 5294FEAA505804AC1B9B440A /* Pods-Soda_iOS-Soda_iOSUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -905,7 +950,7 @@
 		};
 		DAF2D1E627A537A200E33197 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EBD19C694C5C09031236A04C /* Pods-Soda_iOS-Soda_iOSUITests.release.xcconfig */;
+			baseConfigurationReference = 54F1E806AE3D5AF5AC32F209 /* Pods-Soda_iOS-Soda_iOSUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
