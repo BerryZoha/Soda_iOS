@@ -11,7 +11,6 @@ class PostViewController: UIViewController {
 
 //    @IBOutlet weak var tvHappy: UILabel!
     @IBOutlet weak var tfPlace: UITextField!
-    var text = ""
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,13 +20,8 @@ class PostViewController: UIViewController {
 //        tvHappy.layer.backgroundColor = UIColor.mint.cgColor
 //        tvHappy.layer.cornerRadius = tvHappy.frame.height / 2.5
 //        tvHappy.layer.masksToBounds = true
-//        tfPlace.text = text
         let lookAroundTapped = UITapGestureRecognizer(target: self, action: #selector(touchTfPlace))
         tfPlace.addGestureRecognizer(lookAroundTapped)
-    }
-    
-    override func viewDidAppear(_ animated: Bool) {
-        
     }
     
     @objc func touchTfPlace(sender: UITapGestureRecognizer){
