@@ -12,9 +12,14 @@ class PlaceViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
-    }
-    
+  func tableDataSource(_ tableDataSource: GMSAutocompleteTableDataSource, didAutocompleteWith place: GMSPlace) {
+    // Do something with the selected place.
+    print("Place name: \(place.name)")
+      placeName = "\(place.name)"
+    print("Place address: \(place.formattedAddress)")
+    print("Place attributions: \(place.attributions)")
+      
+  }
 
     /*
     // MARK: - Navigation
@@ -26,4 +31,9 @@ class PlaceViewController: UIViewController {
     }
     */
 
+      storyboardVC.text = placeName
+      dismiss(animated: true, completion: nil)
+      
+    return true
+  }
 }
