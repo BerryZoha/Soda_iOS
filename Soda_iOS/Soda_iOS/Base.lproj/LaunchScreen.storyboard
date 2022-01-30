@@ -16,23 +16,23 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_logo" translatesAutoresizingMaskIntoConstraints="NO" id="UpZ-nD-Dv7">
-                                <rect key="frame" x="0.0" y="394" width="414" height="118"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_logo" translatesAutoresizingMaskIntoConstraints="NO" id="UpZ-nD-Dv7">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="UpZ-nD-Dv7" secondAttribute="bottom" constant="350" id="dNW-Up-onS"/>
-                            <constraint firstItem="UpZ-nD-Dv7" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="hoO-yf-Xpc"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="UpZ-nD-Dv7" secondAttribute="trailing" id="owH-iC-Sh7"/>
-                            <constraint firstItem="UpZ-nD-Dv7" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="350" id="q9a-CF-XaP"/>
+                            <constraint firstItem="UpZ-nD-Dv7" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="EhY-Ps-R3G"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="UpZ-nD-Dv7" secondAttribute="bottom" id="KDw-6M-LJB"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="UpZ-nD-Dv7" secondAttribute="trailing" id="Q4B-ND-sgH"/>
+                            <constraint firstItem="UpZ-nD-Dv7" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="R1V-PM-mqx"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="52.173913043478265" y="375"/>
         </scene>
     </scenes>
     <resources>

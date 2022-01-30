@@ -16,10 +16,10 @@
         </array>
     </customFonts>
     <scenes>
-        <!--View Controller-->
+        <!--My View Controller-->
         <scene sceneID="s0d-6b-0kx">
             <objects>
-                <viewController id="Y6W-OH-hqX" sceneMemberID="viewController">
+                <viewController id="Y6W-OH-hqX" customClass="MyViewController" customModule="Soda_iOS" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -46,7 +46,11 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="로그아웃" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jc3-qo-dN8">
-                                <rect key="frame" x="30" y="248" width="59" height="21"/>
+                                <rect key="frame" x="30" y="248" width="80" height="51"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" none="YES"/>
+                                    <bool key="isElement" value="YES"/>
+                                </accessibility>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" systemColor="systemGray2Color"/>
                                 <nil key="highlightedColor"/>
@@ -56,24 +60,29 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="p7b-4D-NtE" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="30" id="0Lm-Yl-VEY"/>
-                            <constraint firstItem="Jc3-qo-dN8" firstAttribute="leading" secondItem="e7H-3x-arO" secondAttribute="leading" id="166-C7-GmB"/>
+                            <constraint firstItem="Jc3-qo-dN8" firstAttribute="top" secondItem="e7H-3x-arO" secondAttribute="bottom" constant="44" id="0Zv-od-cGk"/>
                             <constraint firstItem="e7H-3x-arO" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="30" id="3cb-vj-EWE"/>
                             <constraint firstItem="p7b-4D-NtE" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="168" id="A2Y-MQ-uKc"/>
                             <constraint firstItem="Nl5-2f-PJ7" firstAttribute="top" secondItem="e7H-3x-arO" secondAttribute="top" id="JAW-f9-6nw"/>
                             <constraint firstItem="WQ9-Lh-myo" firstAttribute="top" secondItem="Nl5-2f-PJ7" secondAttribute="bottom" constant="8" symbolic="YES" id="NgN-7Q-kib"/>
+                            <constraint firstItem="Jc3-qo-dN8" firstAttribute="leading" secondItem="e7H-3x-arO" secondAttribute="leading" id="ONG-MQ-Y60"/>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="p7b-4D-NtE" secondAttribute="trailing" constant="153.5" id="OpV-3U-utl"/>
+                            <constraint firstItem="Jc3-qo-dN8" firstAttribute="width" secondItem="5EZ-qb-Rvc" secondAttribute="width" multiplier="0.193237" id="TBS-1b-jaw"/>
                             <constraint firstItem="e7H-3x-arO" firstAttribute="top" secondItem="p7b-4D-NtE" secondAttribute="bottom" constant="40" id="dbZ-Uq-q7j"/>
-                            <constraint firstItem="Jc3-qo-dN8" firstAttribute="top" secondItem="e7H-3x-arO" secondAttribute="bottom" constant="44" id="h30-Fd-njf"/>
+                            <constraint firstItem="Jc3-qo-dN8" firstAttribute="height" secondItem="5EZ-qb-Rvc" secondAttribute="height" multiplier="0.0569196" id="gWg-05-vLQ"/>
                             <constraint firstItem="e7H-3x-arO" firstAttribute="width" secondItem="5EZ-qb-Rvc" secondAttribute="width" multiplier="0.144928" id="klX-CT-OZh"/>
                             <constraint firstItem="Nl5-2f-PJ7" firstAttribute="leading" secondItem="e7H-3x-arO" secondAttribute="trailing" constant="16" id="n4d-Dz-Xx1"/>
                             <constraint firstItem="e7H-3x-arO" firstAttribute="height" secondItem="5EZ-qb-Rvc" secondAttribute="height" multiplier="0.0669643" id="xby-Z7-kFg"/>
                             <constraint firstItem="WQ9-Lh-myo" firstAttribute="leading" secondItem="Nl5-2f-PJ7" secondAttribute="leading" id="zTo-5t-E9F"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="labelLogout" destination="Jc3-qo-dN8" id="ZNg-eS-PrP"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-16" y="58"/>
+            <point key="canvasLocation" x="-17.39130434782609" y="57.589285714285708"/>
         </scene>
     </scenes>
     <resources>
