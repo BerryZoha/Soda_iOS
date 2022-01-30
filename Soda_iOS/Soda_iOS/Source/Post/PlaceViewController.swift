@@ -62,6 +62,7 @@ extension PlaceViewController: GMSAutocompleteTableDataSourceDelegate {
       placeName = "\(place.name)"
     print("Place address: \(place.formattedAddress)")
     print("Place attributions: \(place.attributions)")
+      
   }
 
   func tableDataSource(_ tableDataSource: GMSAutocompleteTableDataSource, didFailAutocompleteWithError error: Error) {
@@ -74,6 +75,7 @@ extension PlaceViewController: GMSAutocompleteTableDataSourceDelegate {
 
       storyboardVC.text = placeName
       dismiss(animated: true, completion: nil)
+      
     return true
   }
 }
