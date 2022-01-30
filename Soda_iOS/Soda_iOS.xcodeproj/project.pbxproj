@@ -28,12 +28,6 @@
 		DA48482627A5610A004A73AC /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA48482527A5610A004A73AC /* HomeViewController.swift */; };
 		DA57B2C727A5A7FF0001EE0A /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA57B2C627A5A7FF0001EE0A /* PostViewController.swift */; };
 		DACCDF4627A5E0C600FE2A07 /* PlaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACCDF4527A5E0C600FE2A07 /* PlaceViewController.swift */; };
-		DACCDF4927A5EBD500FE2A07 /* LoginDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACCDF4827A5EBD500FE2A07 /* LoginDataManager.swift */; };
-		DACCDF4C27A5FAB500FE2A07 /* JwtToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACCDF4B27A5FAB500FE2A07 /* JwtToken.swift */; };
-		DACCDF4F27A5FAFF00FE2A07 /* KakaoLoginResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACCDF4E27A5FAFF00FE2A07 /* KakaoLoginResponse.swift */; };
-		DACCDF5327A605D000FE2A07 /* HomeDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACCDF5227A605CF00FE2A07 /* HomeDataManager.swift */; };
-		DACCDF5627A605E500FE2A07 /* GetCategoryResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACCDF5527A605E500FE2A07 /* GetCategoryResponse.swift */; };
-		DACCDF5C27A611E900FE2A07 /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACCDF5B27A611E800FE2A07 /* MyViewController.swift */; };
 		DAF2D1B827A537A100E33197 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF2D1B727A537A100E33197 /* AppDelegate.swift */; };
 		DAF2D1BA27A537A100E33197 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF2D1B927A537A100E33197 /* SceneDelegate.swift */; };
 		DAF2D1BF27A537A100E33197 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAF2D1BD27A537A100E33197 /* Main.storyboard */; };
@@ -42,6 +36,7 @@
 		DAF2D1CF27A537A200E33197 /* Soda_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF2D1CE27A537A200E33197 /* Soda_iOSTests.swift */; };
 		DAF2D1D927A537A200E33197 /* Soda_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF2D1D827A537A200E33197 /* Soda_iOSUITests.swift */; };
 		DAF2D1DB27A537A200E33197 /* Soda_iOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF2D1DA27A537A200E33197 /* Soda_iOSUITestsLaunchTests.swift */; };
+		DAF2D23227A539C500E33197 /* KobisKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF2D22A27A539C400E33197 /* KobisKey.swift */; };
 		DAF2D23327A539C500E33197 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF2D22C27A539C400E33197 /* BaseViewController.swift */; };
 		DAF2D23427A539C500E33197 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF2D22D27A539C400E33197 /* Constant.swift */; };
 		DAF2D23527A539C500E33197 /* NotoSansCJKkr-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = DAF2D22F27A539C500E33197 /* NotoSansCJKkr-Medium.otf */; };
@@ -103,12 +98,6 @@
 		DA48482527A5610A004A73AC /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		DA57B2C627A5A7FF0001EE0A /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
 		DACCDF4527A5E0C600FE2A07 /* PlaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceViewController.swift; sourceTree = "<group>"; };
-		DACCDF4827A5EBD500FE2A07 /* LoginDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginDataManager.swift; sourceTree = "<group>"; };
-		DACCDF4B27A5FAB500FE2A07 /* JwtToken.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JwtToken.swift; sourceTree = "<group>"; };
-		DACCDF4E27A5FAFF00FE2A07 /* KakaoLoginResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KakaoLoginResponse.swift; sourceTree = "<group>"; };
-		DACCDF5227A605CF00FE2A07 /* HomeDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDataManager.swift; sourceTree = "<group>"; };
-		DACCDF5527A605E500FE2A07 /* GetCategoryResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetCategoryResponse.swift; sourceTree = "<group>"; };
-		DACCDF5B27A611E800FE2A07 /* MyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
 		DAF2D1B427A537A100E33197 /* Soda_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Soda_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAF2D1B727A537A100E33197 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DAF2D1B927A537A100E33197 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -121,6 +110,7 @@
 		DAF2D1D427A537A200E33197 /* Soda_iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Soda_iOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAF2D1D827A537A200E33197 /* Soda_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Soda_iOSUITests.swift; sourceTree = "<group>"; };
 		DAF2D1DA27A537A200E33197 /* Soda_iOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Soda_iOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DAF2D22A27A539C400E33197 /* KobisKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KobisKey.swift; sourceTree = "<group>"; };
 		DAF2D22C27A539C400E33197 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		DAF2D22D27A539C400E33197 /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		DAF2D22F27A539C500E33197 /* NotoSansCJKkr-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansCJKkr-Medium.otf"; sourceTree = "<group>"; };
@@ -208,22 +198,6 @@
 			path = Collection;
 			sourceTree = "<group>";
 		};
-		DACCDF4D27A5FAF100FE2A07 /* Entity */ = {
-			isa = PBXGroup;
-			children = (
-				DACCDF4E27A5FAFF00FE2A07 /* KakaoLoginResponse.swift */,
-			);
-			path = Entity;
-			sourceTree = "<group>";
-		};
-		DACCDF5427A605D400FE2A07 /* Entity */ = {
-			isa = PBXGroup;
-			children = (
-				DACCDF5527A605E500FE2A07 /* GetCategoryResponse.swift */,
-			);
-			path = Entity;
-			sourceTree = "<group>";
-		};
 		DAF2D1AB27A537A100E33197 = {
 			isa = PBXGroup;
 			children = (
@@ -293,7 +267,7 @@
 		DAF2D22927A539C400E33197 /* Secret */ = {
 			isa = PBXGroup;
 			children = (
-				DACCDF4B27A5FAB500FE2A07 /* JwtToken.swift */,
+				DAF2D22A27A539C400E33197 /* KobisKey.swift */,
 			);
 			path = Secret;
 			sourceTree = "<group>";
@@ -366,7 +340,6 @@
 			isa = PBXGroup;
 			children = (
 				DA48481827A53D2B004A73AC /* MyStoryboard.storyboard */,
-				DACCDF5B27A611E800FE2A07 /* MyViewController.swift */,
 			);
 			path = My;
 			sourceTree = "<group>";
@@ -374,10 +347,8 @@
 		DAF2D2FF27A53BC700E33197 /* Login */ = {
 			isa = PBXGroup;
 			children = (
-				DACCDF4D27A5FAF100FE2A07 /* Entity */,
 				DA48481627A53D1A004A73AC /* LoginStoryboard.storyboard */,
 				DA48481E27A55404004A73AC /* LoginViewController.swift */,
-				DACCDF4827A5EBD500FE2A07 /* LoginDataManager.swift */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -385,11 +356,9 @@
 		DAF2D30027A53BC700E33197 /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				DACCDF5427A605D400FE2A07 /* Entity */,
 				DA48482027A55CC4004A73AC /* Cell */,
 				DA48481427A53D13004A73AC /* HomeStoryboard.storyboard */,
 				DA48482527A5610A004A73AC /* HomeViewController.swift */,
-				DACCDF5227A605CF00FE2A07 /* HomeDataManager.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -427,8 +396,6 @@
 				DAF2D1B127A537A100E33197 /* Frameworks */,
 				DAF2D1B227A537A100E33197 /* Resources */,
 				59C7FF16F1BD236801330101 /* [CP] Embed Pods Frameworks */,
-				B7307DC0CAC85A236965697E /* [CP] Embed Pods Frameworks */,
-				3E092E2069AA7DCAFA230B1D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -467,8 +434,6 @@
 				DAF2D1D127A537A200E33197 /* Frameworks */,
 				DAF2D1D227A537A200E33197 /* Resources */,
 				CB59A49FA3DA03F7F48BABD6 /* [CP] Embed Pods Frameworks */,
-				384C8A98B79434EAD2D5B4BA /* [CP] Embed Pods Frameworks */,
-				3453FC4BD2D2746BAFF38E9D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -561,24 +526,6 @@
 
 /* Begin PBXShellScriptBuildPhase section */
 		59C7FF16F1BD236801330101 /* [CP] Embed Pods Frameworks */ = {
-		3453FC4BD2D2746BAFF38E9D /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Soda_iOS-Soda_iOSUITests/Pods-Soda_iOS-Soda_iOSUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Soda_iOS-Soda_iOSUITests/Pods-Soda_iOS-Soda_iOSUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Soda_iOS-Soda_iOSUITests/Pods-Soda_iOS-Soda_iOSUITests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		384C8A98B79434EAD2D5B4BA /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -618,24 +565,6 @@
 			showEnvVarsInLog = 0;
 		};
 		B87BE25A71E623CD317041BF /* [CP] Check Pods Manifest.lock */ = {
-		3E092E2069AA7DCAFA230B1D /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Soda_iOS/Pods-Soda_iOS-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Soda_iOS/Pods-Soda_iOS-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Soda_iOS/Pods-Soda_iOS-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B6A7B56B6C9CFB16F139E5B0 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -706,18 +635,15 @@
 				DA57B2C727A5A7FF0001EE0A /* PostViewController.swift in Sources */,
 				DAF2D1B827A537A100E33197 /* AppDelegate.swift in Sources */,
 				DAF2D23327A539C500E33197 /* BaseViewController.swift in Sources */,
-				DACCDF4927A5EBD500FE2A07 /* LoginDataManager.swift in Sources */,
 				DAF2D29F27A53AAC00E33197 /* Date.swift in Sources */,
 				DA48482627A5610A004A73AC /* HomeViewController.swift in Sources */,
 				DACCDF4627A5E0C600FE2A07 /* PlaceViewController.swift in Sources */,
-				DACCDF4C27A5FAB500FE2A07 /* JwtToken.swift in Sources */,
 				DA48481F27A55404004A73AC /* LoginViewController.swift in Sources */,
 				DAF2D2A427A53AAC00E33197 /* UINavigationBar.swift in Sources */,
 				C560DC5927A5CE050064F4E6 /* AlbumCollectionViewCell.swift in Sources */,
 				DAF2D2A327A53AAC00E33197 /* UIViewController.swift in Sources */,
 				C5E950E527A57067006B45AB /* PhotoCollectionViewCell.swift in Sources */,
 				DAF2D2A627A53AAC00E33197 /* Device.swift in Sources */,
-				DACCDF5327A605D000FE2A07 /* HomeDataManager.swift in Sources */,
 				DA48482327A55CDB004A73AC /* HomeCollectionViewCell.swift in Sources */,
 				DAF2D2A127A53AAC00E33197 /* String.swift in Sources */,
 				C5ADE6A527A54E85006E8938 /* FeedPageViewController.swift in Sources */,
@@ -726,16 +652,12 @@
 				DAF2D2A227A53AAC00E33197 /* UIButton.swift in Sources */,
 				DAF2D1BA27A537A100E33197 /* SceneDelegate.swift in Sources */,
 				DAF2D2A527A53AAC00E33197 /* UIFont.swift in Sources */,
-				DACCDF4F27A5FAFF00FE2A07 /* KakaoLoginResponse.swift in Sources */,
-				DACCDF5627A605E500FE2A07 /* GetCategoryResponse.swift in Sources */,
 				DAF2D2A027A53AAC00E33197 /* UIColor.swift in Sources */,
 				C5E950E227A563A8006B45AB /* pageDetailViewController.swift in Sources */,
 				DAF2D29E27A53AAC00E33197 /* IndicatorView.swift in Sources */,
 				C576681B27A5C678005CE66C /* AlbumViewController.swift in Sources */,
 				C560DC5B27A5D0B90064F4E6 /* model.swift in Sources */,
 				DAF2D23227A539C500E33197 /* KobisKey.swift in Sources */,
-				DACCDF5C27A611E900FE2A07 /* MyViewController.swift in Sources */,
-				DAF2D29E27A53AAC00E33197 /* IndicatorView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -916,13 +838,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = T9N7L92856;
-				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Soda_iOS/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = FeedStoryboard;
-				INFOPLIST_KEY_UIMainStoryboardFile = LoginStoryboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -952,7 +872,6 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = FeedStoryboard;
-				INFOPLIST_KEY_UIMainStoryboardFile = LoginStoryboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
