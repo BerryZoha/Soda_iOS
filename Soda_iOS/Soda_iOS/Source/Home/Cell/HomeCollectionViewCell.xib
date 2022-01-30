@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="NotoSansCJKkr-Medium.otf">
+            <string>NotoSansCJKkr-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="homeCell" id="gTV-IL-0wX" customClass="HomeCollectionViewCell" customModule="Soda_iOS" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="307" height="343"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="307" height="343"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EVR-n7-j3v">
+                        <rect key="frame" x="0.0" y="0.0" width="307" height="343"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="diary" translatesAutoresizingMaskIntoConstraints="NO" id="fq5-pQ-Y5Y">
+                                <rect key="frame" x="0.0" y="0.0" width="307" height="206"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="flag" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="eEY-NH-pki">
+                                <rect key="frame" x="8" y="214" width="40" height="40"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M4S-JS-MZm">
+                                <rect key="frame" x="58" y="224" width="241" height="21"/>
+                                <fontDescription key="fontDescription" name="NotoSansCJKkr-Medium" family="Noto Sans CJK KR" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="eEY-NH-pki" firstAttribute="leading" secondItem="EVR-n7-j3v" secondAttribute="leading" constant="8" id="0w5-r1-I6R"/>
+                            <constraint firstItem="fq5-pQ-Y5Y" firstAttribute="height" secondItem="EVR-n7-j3v" secondAttribute="height" multiplier="0.6" id="LcR-A2-8eD"/>
+                            <constraint firstItem="M4S-JS-MZm" firstAttribute="bottom" secondItem="eEY-NH-pki" secondAttribute="bottom" constant="-10" id="LpB-mC-POb"/>
+                            <constraint firstItem="eEY-NH-pki" firstAttribute="height" secondItem="EVR-n7-j3v" secondAttribute="height" multiplier="0.120991" id="UEj-JS-9rz"/>
+                            <constraint firstAttribute="trailing" secondItem="fq5-pQ-Y5Y" secondAttribute="trailing" id="XeQ-vO-n4l"/>
+                            <constraint firstItem="eEY-NH-pki" firstAttribute="top" secondItem="fq5-pQ-Y5Y" secondAttribute="bottom" constant="7.5" id="dmw-Lz-5aM"/>
+                            <constraint firstAttribute="trailing" secondItem="M4S-JS-MZm" secondAttribute="trailing" constant="8" id="hhd-Zf-cSM"/>
+                            <constraint firstItem="M4S-JS-MZm" firstAttribute="leading" secondItem="eEY-NH-pki" secondAttribute="trailing" constant="10" id="iSo-X6-Zb1"/>
+                            <constraint firstItem="fq5-pQ-Y5Y" firstAttribute="top" secondItem="EVR-n7-j3v" secondAttribute="top" id="kBS-Vg-SOb"/>
+                            <constraint firstItem="fq5-pQ-Y5Y" firstAttribute="leading" secondItem="EVR-n7-j3v" secondAttribute="leading" id="ogO-w3-Fo6"/>
+                            <constraint firstItem="eEY-NH-pki" firstAttribute="width" secondItem="EVR-n7-j3v" secondAttribute="width" multiplier="0.130293" id="orH-ld-STd"/>
+                            <constraint firstItem="M4S-JS-MZm" firstAttribute="top" secondItem="fq5-pQ-Y5Y" secondAttribute="bottom" constant="18" id="zSh-6n-4FY"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="EVR-n7-j3v" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="0hY-Fb-Q7l"/>
+                <constraint firstAttribute="bottom" secondItem="EVR-n7-j3v" secondAttribute="bottom" id="USN-LB-jtx"/>
+                <constraint firstItem="EVR-n7-j3v" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="dis-HG-txh"/>
+                <constraint firstAttribute="trailing" secondItem="EVR-n7-j3v" secondAttribute="trailing" id="frM-wn-S12"/>
+            </constraints>
+            <size key="customSize" width="307" height="343"/>
+            <point key="canvasLocation" x="318.11594202898556" y="223.32589285714283"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="diary" width="512" height="512"/>
+        <image name="flag" catalog="system" width="128" height="121"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
