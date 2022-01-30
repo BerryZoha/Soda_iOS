@@ -11,6 +11,7 @@ import KakaoSDKAuth
 import KakaoSDKUser
 
 class LoginViewController: UIViewController {
+    lazy var dataManager = LoginDataManager()
     var acceessToken:String?=nil //property
 
     @IBAction func tapbtnKakao(_ sender: Any) {
@@ -23,8 +24,10 @@ class LoginViewController: UIViewController {
                 else {
                     print("loginWithKakaoTalk() success.")
 
-                    //do something
-                    self.acceessToken = oauthToken?.accessToken
+                    UserDefaults.standard.set(oauthToken?.accessToken, forKey: "jwt")
+                    print(oauthToken?.accessToken)
+                    self.showIndicator()
+                    self.dataManager.postKakaoLogin(viewController: self)
                 }
             }
         }
@@ -38,10 +41,10 @@ class LoginViewController: UIViewController {
                         print("loginWithKakaoAccount() success.")
 
                         //do something
-                        self.acceessToken = oauthToken?.accessToken
-
-                        let mainTabBarController = UIStoryboard(name: "HomeStoryboard", bundle: nil).instantiateViewController(identifier: "MainTabBarController")
-                        self.changeRootViewController(mainTabBarController)
+                        UserDefaults.standard.set(oauthToken?.accessToken, forKey: "jwt")
+                        print(oauthToken?.accessToken)
+                        self.showIndicator()
+                        self.dataManager.postKakaoLogin(viewController: self)
     
                     }
                 }
@@ -52,17 +55,25 @@ class LoginViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        // 자동로그인
+        if (UserDefaults.standard.string(forKey: "jwt") != nil){
+            let mainTabBarController = UIStoryboard(name: "HomeStoryboard", bundle: nil).instantiateViewController(identifier: "MainTabBarController")
+            self.changeRootViewController(mainTabBarController)
+        }
+    }
+}
+
+extension LoginViewController {
+    func didSuccessKakaoLogin(_ result: KakaoLoginResult) {
+        UserDefaults.standard.set(result.jwt, forKey: "jwt")
+        JwtToken.token = result.jwt
+        
+        let mainTabBarController = UIStoryboard(name: "HomeStoryboard", bundle: nil).instantiateViewController(identifier: "MainTabBarController")
+        self.changeRootViewController(mainTabBarController)
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    
+    func failedToRequest(message: String) {
+        self.presentAlert(title: message)
     }
-    */
-
 }

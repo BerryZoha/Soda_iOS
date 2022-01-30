@@ -8,8 +8,10 @@
 import Alamofire
 
 struct Constant {
-    static let BASE_URL = "URL 주소를 입력해주세요"
-    static let KOBIS_BASE_URL = "http://www.kobis.or.kr/kobisopenapi/webservice/rest"
+    //url 주소
+    static let BASE_URL = "https://dev.hiberry.shop/"
     
-    //
+    static var kakao_HEADERS:HTTPHeaders = ["access-token": JwtToken.token!]
+    
+    static var HEADERS:HTTPHeaders = ["x-access-token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWR4IjoxLCJpYXQiOjE2NDM0NjA3NzYsImV4cCI6MTY0NjA1Mjc3Nn0.pLuAOJ_mCSLx9l1Utclv-WIEuNZTukUnFcq3B7KdcPw"]
 }
