@@ -24,10 +24,8 @@ class LoginViewController: UIViewController {
                 else {
                     print("loginWithKakaoTalk() success.")
 
-                    UserDefaults.standard.set(oauthToken?.accessToken, forKey: "jwt")
-                    print(oauthToken?.accessToken)
-                    self.showIndicator()
-                    self.dataManager.postKakaoLogin(viewController: self)
+                    //do something
+                    self.acceessToken = oauthToken?.accessToken
                 }
             }
         }
