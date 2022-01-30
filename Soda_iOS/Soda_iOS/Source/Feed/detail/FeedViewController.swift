@@ -7,6 +7,13 @@
 
 import UIKit
 
+extension FeedViewController {
+    func successData(_ result : FeedResponse) {
+        nameLabel.text = result.result.categoryName
+    }
+}
+
+
 class FeedViewController: UIViewController {
     
     @IBOutlet weak var backBtn : UIButton!
@@ -14,11 +21,15 @@ class FeedViewController: UIViewController {
     @IBOutlet weak var albumBtn: UIButton!
     @IBOutlet var searchTextField: UITextField!
 
+   
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
+        FeedTitleRequest().FeedData(Idx: 1, Type: "feed" , self)
+        
     }
     
     //MARK: - actions

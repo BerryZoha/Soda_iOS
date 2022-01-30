@@ -6,6 +6,23 @@
 //
 
 import UIKit
+import Kingfisher
+
+extension pageDetailViewController {
+    func successData(_ result : FeedResponse) {
+        LocationKwLb.text = result.result.diaries[0].place
+        EmotionKwLbLb.text = result.result.diaries[0].emotion
+        FoodKwLb.text = result.result.diaries[0].foods[0]
+        WhoKwLb.text = result.result.diaries[0].together[0]
+        ObjectKwLb.text = result.result.diaries[0].interested[0]
+        ShoppingKwLb.text = result.result.diaries[0].shopping?.first ?? ""
+        LodgingKwLb.text = result.result.diaries[0].accommodation
+        MemoKwLb.text = result.result.diaries[0].etc?.first ?? ""
+        
+        myCollectionView.reloadData()
+        
+    }
+}
 
 class pageDetailViewController: UIViewController, UIScrollViewDelegate  {
 
@@ -38,6 +55,9 @@ class pageDetailViewController: UIViewController, UIScrollViewDelegate  {
     @IBOutlet weak var LodgingKwLb : UILabel!
     @IBOutlet weak var MemoKwLb : UILabel!
 
+    lazy var dataManager: FeedRequest = FeedRequest()
+    
+    var diarys : [Diary] = []
 
 
     var index : Int = 0
@@ -45,7 +65,7 @@ class pageDetailViewController: UIViewController, UIScrollViewDelegate  {
     
     var photoImages = ["파리","파리2"]
     
-    
+    var test = 0
     
     //MARK: - Lifecycle
     
@@ -59,6 +79,7 @@ class pageDetailViewController: UIViewController, UIScrollViewDelegate  {
         pageControl.numberOfPages = photoImages.count
         pageControl.currentPage = 0
      
+        FeedRequest().FeedData(Idx: 1, Type: "feed" , self)
     }
     
     
@@ -137,6 +158,19 @@ extension pageDetailViewController: UICollectionViewDelegate, UICollectionViewDa
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath) as! PhotoCollectionViewCell
+        
+        if !diarys.isEmpty {
+            let diary = diarys[0]
+            if let imageString = diary.imageUrls[indexPath.row] {
+                let urlString = imageString
+                let url = URL(string: urlString)
+                let processer = DownsamplingImageProcessor(size: cell.photoImageView.bounds.size)
+                cell.photoImageView.kf.setImage(with: url, options: [.processor(processer)])
+            }
+        }
+        print("ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ")
+        print(test)
+        
         cell.photoImageView.image = UIImage(named: photoImages[indexPath.row])
         return cell
     }
