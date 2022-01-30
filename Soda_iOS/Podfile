@@ -7,6 +7,8 @@ target 'Soda_iOS' do
 
   # Pods for Soda_iOS
 pod 'Alamofire', '~> 5.5'
+pod 'Kingfisher', '~> 7.0'
+
 
   target 'Soda_iOSTests' do
     inherit! :search_paths

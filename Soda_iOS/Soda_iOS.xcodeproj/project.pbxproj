@@ -10,8 +10,16 @@
 		062019C842D9E6190B659282 /* Pods_Soda_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6939F92CAD4DC85E5916E511 /* Pods_Soda_iOS.framework */; };
 		68CCAD89410CD770310EE709 /* Pods_Soda_iOS_Soda_iOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27CAD0682DFD1226E640DD01 /* Pods_Soda_iOS_Soda_iOSUITests.framework */; };
 		C17062ED8AD88F6008AF44FD /* Pods_Soda_iOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A627F49F883C523BD39B6917 /* Pods_Soda_iOSTests.framework */; };
+		C51BCAD527A61E6E00A0E279 /* albumRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51BCAD427A61E6E00A0E279 /* albumRequest.swift */; };
+		C51BCAD927A6326A00A0E279 /* albumResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51BCAD827A6326A00A0E279 /* albumResponse.swift */; };
 		C560DC5927A5CE050064F4E6 /* AlbumCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C560DC5827A5CE050064F4E6 /* AlbumCollectionViewCell.swift */; };
 		C560DC5B27A5D0B90064F4E6 /* model.swift in Sources */ = {isa = PBXBuildFile; fileRef = C560DC5A27A5D0B90064F4E6 /* model.swift */; };
+		C560DC5E27A5F0220064F4E6 /* FeedRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C560DC5D27A5F0220064F4E6 /* FeedRequest.swift */; };
+		C560DC6227A600190064F4E6 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C560DC6127A600190064F4E6 /* DataModel.swift */; };
+		C560DC6427A60FF30064F4E6 /* FeedTitleRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C560DC6327A60FF30064F4E6 /* FeedTitleRequest.swift */; };
+		C560DC6C27A61D0A0064F4E6 /* FeedTitleRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C560DC6B27A61D0A0064F4E6 /* FeedTitleRequest.swift */; };
+		C560DC6E27A61D800064F4E6 /* FeedResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = C560DC6D27A61D800064F4E6 /* FeedResponse.swift */; };
+		C560DC7027A61D980064F4E6 /* FeedRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C560DC6F27A61D980064F4E6 /* FeedRequest.swift */; };
 		C576681B27A5C678005CE66C /* AlbumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C576681A27A5C678005CE66C /* AlbumViewController.swift */; };
 		C5ADE6A327A548FA006E8938 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5ADE6A227A548FA006E8938 /* FeedViewController.swift */; };
 		C5ADE6A527A54E85006E8938 /* FeedPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5ADE6A427A54E85006E8938 /* FeedPageViewController.swift */; };
@@ -72,8 +80,16 @@
 		6302BF32D55A2563F032E5A4 /* Pods-Soda_iOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Soda_iOSTests.release.xcconfig"; path = "Target Support Files/Pods-Soda_iOSTests/Pods-Soda_iOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		6939F92CAD4DC85E5916E511 /* Pods_Soda_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Soda_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A627F49F883C523BD39B6917 /* Pods_Soda_iOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Soda_iOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C51BCAD427A61E6E00A0E279 /* albumRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = albumRequest.swift; sourceTree = "<group>"; };
+		C51BCAD827A6326A00A0E279 /* albumResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = albumResponse.swift; sourceTree = "<group>"; };
 		C560DC5827A5CE050064F4E6 /* AlbumCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumCollectionViewCell.swift; sourceTree = "<group>"; };
 		C560DC5A27A5D0B90064F4E6 /* model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = model.swift; sourceTree = "<group>"; };
+		C560DC5D27A5F0220064F4E6 /* FeedRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedRequest.swift; sourceTree = "<group>"; };
+		C560DC6127A600190064F4E6 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		C560DC6327A60FF30064F4E6 /* FeedTitleRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedTitleRequest.swift; sourceTree = "<group>"; };
+		C560DC6B27A61D0A0064F4E6 /* FeedTitleRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedTitleRequest.swift; sourceTree = "<group>"; };
+		C560DC6D27A61D800064F4E6 /* FeedResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FeedResponse.swift; path = ../../../../../../../../../.Trash/FeedResponse.swift; sourceTree = "<group>"; };
+		C560DC6F27A61D980064F4E6 /* FeedRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedRequest.swift; sourceTree = "<group>"; };
 		C576681A27A5C678005CE66C /* AlbumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumViewController.swift; sourceTree = "<group>"; };
 		C5ADE6A227A548FA006E8938 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		C5ADE6A427A54E85006E8938 /* FeedPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedPageViewController.swift; sourceTree = "<group>"; };
@@ -156,9 +172,31 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		C560DC5C27A5F0100064F4E6 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				C560DC6327A60FF30064F4E6 /* FeedTitleRequest.swift */,
+				C560DC6B27A61D0A0064F4E6 /* FeedTitleRequest.swift */,
+				C560DC6F27A61D980064F4E6 /* FeedRequest.swift */,
+				C560DC6D27A61D800064F4E6 /* FeedResponse.swift */,
+				C560DC5D27A5F0220064F4E6 /* FeedRequest.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		C560DC6627A61BB70064F4E6 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				C51BCAD427A61E6E00A0E279 /* albumRequest.swift */,
+				C51BCAD827A6326A00A0E279 /* albumResponse.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
 		C576681827A5C608005CE66C /* detail */ = {
 			isa = PBXGroup;
 			children = (
+				C560DC5C27A5F0100064F4E6 /* API */,
 				C5E950E327A5704E006B45AB /* Collection */,
 				C5ADE6A427A54E85006E8938 /* FeedPageViewController.swift */,
 				C5E950E127A563A8006B45AB /* pageDetailViewController.swift */,
@@ -170,6 +208,7 @@
 		C576681927A5C61D005CE66C /* album */ = {
 			isa = PBXGroup;
 			children = (
+				C560DC6627A61BB70064F4E6 /* API */,
 				C576681A27A5C678005CE66C /* AlbumViewController.swift */,
 				C560DC5827A5CE050064F4E6 /* AlbumCollectionViewCell.swift */,
 			);
@@ -262,6 +301,7 @@
 			isa = PBXGroup;
 			children = (
 				DAF2D22C27A539C400E33197 /* BaseViewController.swift */,
+				C560DC6127A600190064F4E6 /* DataModel.swift */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -613,9 +653,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				DAF2D1B827A537A100E33197 /* AppDelegate.swift in Sources */,
+				C560DC7027A61D980064F4E6 /* FeedRequest.swift in Sources */,
+				C51BCAD927A6326A00A0E279 /* albumResponse.swift in Sources */,
 				DAF2D23327A539C500E33197 /* BaseViewController.swift in Sources */,
 				DAF2D29F27A53AAC00E33197 /* Date.swift in Sources */,
+				C560DC5E27A5F0220064F4E6 /* FeedRequest.swift in Sources */,
 				DAF2D2A427A53AAC00E33197 /* UINavigationBar.swift in Sources */,
+				C560DC6227A600190064F4E6 /* DataModel.swift in Sources */,
+				C560DC6427A60FF30064F4E6 /* FeedTitleRequest.swift in Sources */,
 				C560DC5927A5CE050064F4E6 /* AlbumCollectionViewCell.swift in Sources */,
 				DAF2D2A327A53AAC00E33197 /* UIViewController.swift in Sources */,
 				C5E950E527A57067006B45AB /* PhotoCollectionViewCell.swift in Sources */,
@@ -623,11 +668,14 @@
 				DAF2D2A127A53AAC00E33197 /* String.swift in Sources */,
 				C5ADE6A527A54E85006E8938 /* FeedPageViewController.swift in Sources */,
 				C5ADE6A327A548FA006E8938 /* FeedViewController.swift in Sources */,
+				C51BCAD527A61E6E00A0E279 /* albumRequest.swift in Sources */,
 				DAF2D23427A539C500E33197 /* Constant.swift in Sources */,
+				C560DC6E27A61D800064F4E6 /* FeedResponse.swift in Sources */,
 				DAF2D2A227A53AAC00E33197 /* UIButton.swift in Sources */,
 				DAF2D1BA27A537A100E33197 /* SceneDelegate.swift in Sources */,
 				DAF2D2A527A53AAC00E33197 /* UIFont.swift in Sources */,
 				DAF2D2A027A53AAC00E33197 /* UIColor.swift in Sources */,
+				C560DC6C27A61D0A0064F4E6 /* FeedTitleRequest.swift in Sources */,
 				C5E950E227A563A8006B45AB /* pageDetailViewController.swift in Sources */,
 				DAF2D29E27A53AAC00E33197 /* IndicatorView.swift in Sources */,
 				C576681B27A5C678005CE66C /* AlbumViewController.swift in Sources */,

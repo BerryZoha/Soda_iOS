@@ -6,14 +6,22 @@
 //
 
 import UIKit
+import Kingfisher
+
+
 
 class FeedPageViewController: UIPageViewController {
 
-    
     var individualPageViewControllerList = [UIViewController]()
+    
+   // var pageDetailVC : pageDetailViewController?
+    
+    var diarys : [Diary] = []
+
                        
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         
         self.dataSource = self
         self.delegate = self
@@ -22,8 +30,7 @@ class FeedPageViewController: UIPageViewController {
             pageDetailViewController.getInstance(index: 0),
             pageDetailViewController.getInstance(index: 1),
             pageDetailViewController.getInstance(index: 2),
-            pageDetailViewController.getInstance(index: 3),
-            pageDetailViewController.getInstance(index: 4),
+            pageDetailViewController.getInstance(index: 3)
         ]
         
         setViewControllers([individualPageViewControllerList[0]], direction: .forward, animated: true, completion: nil)
@@ -31,6 +38,7 @@ class FeedPageViewController: UIPageViewController {
     }
     
 }
+
 
 extension FeedPageViewController :  UIPageViewControllerDataSource, UIPageViewControllerDelegate {
 
@@ -57,6 +65,24 @@ extension FeedPageViewController :  UIPageViewControllerDataSource, UIPageViewCo
         }
     }
     
+    func pageViewController(_ pageViewController: UIPageViewController, didFinishAnimating finished: Bool, previousViewControllers: [UIViewController], transitionCompleted completed: Bool) {
+        if completed {
+            //페이징 킷 뷰컨트롤러의 첫번째 인덱스 ( 페이징 넘기면서 첫번째 인덱스의 뷰가 사라지고 두번째 페이징이 첫번째 인덱스가 됨)
+            let index = individualPageViewControllerList.firstIndex(of: pageViewController.viewControllers![0])
+
+            //만약에 페이징뷰컨트롤러의 0번째 인덱스가 currentviewcontroller라면?
+            
+            if let currentViewController = pageViewController.viewControllers?[0] as? pageDetailViewController {
+                
+                //currentviewcontroller = pageDetailViewController()
+                currentViewController.diarys = diarys[index].imageUrls
+                
+               //
+                currentViewController.test = 1
+                currentViewController.myCollectionView.reloadData()
+            }
+        }
+    }
     
     func presentationCount(for pageViewController: UIPageViewController) -> Int {
         return 5

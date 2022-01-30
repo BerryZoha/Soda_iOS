@@ -6,10 +6,18 @@
 //
 
 import UIKit
+import Kingfisher
+
+extension AlbumViewController {
+    func successData(_ result : albumResponse) {
+        collectionView.reloadData()
+        
+    }
+}
+
 
 class AlbumViewController: UICollectionViewController,UICollectionViewDelegateFlowLayout {
-
-
+    
     private var galleries : [gallery] = [ gallery(image: "갤러리", emoticon: "🥰"),
                                        gallery(image: "갤러리", emoticon: "🥰"),
                                        gallery(image: "갤러리", emoticon: "🥰"),
@@ -24,8 +32,10 @@ class AlbumViewController: UICollectionViewController,UICollectionViewDelegateFl
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-
+        
+        albumRequest().albumData(Idx: 1, Type: "album" , self)
+        
+ 
     }
     
     override func numberOfSections(in collectionView: UICollectionView) -> Int {
